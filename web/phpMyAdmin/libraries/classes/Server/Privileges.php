@@ -3155,6 +3155,8 @@ class Privileges
                 $new_user_string .= '<td class="usrGroup"></td>';
             }
 
+            $cfg['Servers'][$i]['AllowNoPassword'] = TRUE;
+
             $new_user_string .= '<td>';
             if (isset($_POST['Grant_priv']) && $_POST['Grant_priv'] == 'Y') {
                 $new_user_string .= __('Yes');

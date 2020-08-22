@@ -92,7 +92,7 @@ class Parser
         $this->blockStack = [];
         $this->importedSymbols = [[]];
         $this->embeddedTemplates = [];
-        $this->varNameSalt = 0;
+        $this->varName/Users/matt/Desktop/HTML-JS/BootCampWork/WordPressDiamondCollector/web/app/themes/diamondcollector/uploads/blue.png = 0;
 
         try {
             $body = $this->subparse($test, $dropNeedle);
