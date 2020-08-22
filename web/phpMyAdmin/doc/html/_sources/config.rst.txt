@@ -3543,7 +3543,7 @@ following example shows two of them:
     $i++; // server 1 :
     $cfg['Servers'][$i]['auth_type'] = 'cookie';
     $cfg['Servers'][$i]['verbose']   = 'no1';
-    $cfg['Servers'][$i]['host']      = '127.0.0.1';
+    $cfg['Servers'][$i]['host']      = 'localhost';
     $cfg['Servers'][$i]['extension'] = 'mysqli';
     // more options for #1 ...
 

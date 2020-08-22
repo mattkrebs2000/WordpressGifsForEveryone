@@ -581,4 +581,3 @@ class ServerConfigChecks
         return function_exists($name);
     }
 }
-$cfg['Servers'][$i]['AllowNoPassword'] = TRUE;
