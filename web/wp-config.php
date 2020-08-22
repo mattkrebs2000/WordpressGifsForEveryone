@@ -4,6 +4,16 @@
  * This file is required in the root directory so WordPress can find it.
  * WP is hardcoded to look in its own directory or one directory up for wp-config.php.
  */
+define('AUTH_KEY', 'root');
+define('SECURE_AUTH_KEY', 'root');
+define('LOGGED_IN_KEY', 'root');
+define('NONCE_KEY', 'root');
+define('AUTH_SALT', 'root');
+define('SECURE_AUTH_SALT', 'root');
+define('LOGGED_IN_SALT', 'root');
+define('NONCE_SALT', 'root');
+ 
+ 
 require_once(dirname(__DIR__) . '/vendor/autoload.php');
 require_once(dirname(__DIR__) . '/config/application.php');
 require_once(ABSPATH . 'wp-settings.php');
