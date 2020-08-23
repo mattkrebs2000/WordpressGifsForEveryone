@@ -4,7 +4,8 @@
 
 [logo]: https://github.com/mattkrebs1974/Gifs-with-GiphyAPI/blob/master/Gifs%20copy.png
 
-his website relies on GiphyAPI call to bring about any kind of Gif you want.
+This website relies on GiphyAPI call to bring about any kind of Gif you want.
+The app is a wordpress application with a custom made theme.
 
 ## Deployment 
 
