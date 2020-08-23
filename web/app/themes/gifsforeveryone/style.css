@@ -1,0 +1,142 @@
+/*
+Theme Name: gifsforeveryone
+Theme URI: https:https://immense-temple-79839.herokuapp.com/themes/weathertriviatheme/
+Author: Matt Krebs
+Author URI: https://immense-temple-79839.herokuapp.com/
+Description: This is a custom theme adapted from a website that I made without Wordpress.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gifsforeveryone
+*/
+
+body, html {
+  width: 100%;
+}
+
+.bg {
+
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://media3.giphy.com/media/C8gkEYivtQDlGzyAwp/giphy.webp?cid=790b761…&amp;rid=giphy.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-color:#323232;
+}
+
+.text {
+color:#007bff;
+font-size: 5vw;
+background-color: aliceblue;
+margin-top:50px;
+padding:20px;
+padding-bottom: 0px;
+opacity:.8;
+font-variant: small-caps;
+border-radius: 10px;
+}
+
+.directions{
+font-size:3vw;
+padding-bottom:-10px;
+}
+
+#text2:hover{
+box-shadow: 0px 0px 20px 5px aliceblue;
+}
+
+#topic {
+background-color: aliceblue;
+opacity:.8;
+margin:0 50px 0 0px;
+
+}
+
+
+.buttons {
+color:aliceblue;
+background-color: #007bff;
+opacity:.8;
+padding:15px;
+font-variant: small-caps;
+border:0px;
+}
+
+.form-control::-webkit-input-placeholder { color:#007bff; font-variant: small-caps;}  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: #007bff;font-variant: small-caps; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color:#007bff;font-variant: small-caps; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color:#007bff;font-variant: small-caps; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color:#007bff;font-variant: small-caps; }  /* Microsoft Edge */
+
+
+.buttons:hover{
+box-shadow: 0px 0px 20px 5px aliceblue;
+color:#007bff;
+background-color:aliceblue;
+
+
+
+border: 0px;
+opacity:80%;
+
+}
+
+#submit {
+
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: -50px;
+  background-color: aliceblue;
+  opacity:.8;
+  color:#007bff;
+  width: 80px;
+  margin: 0 0 0 80px;
+  font-variant: small-caps;
+  border:0px;
+}
+
+#submit:hover {
+
+box-shadow: 0px 0px 20px 5px #007bff;
+color:aliceblue;
+background-color: #007bff;
+border: 0px;
+opacity:80%;
+
+}
+
+
+#form {
+
+position:relative;
+
+
+}
+
+
+.changeImage{
+
+width:100vw;
+
+}
+
+.gifdirections {
+
+  color:dodgerblue;
+  font-weight: bolder;
+  text-align: center;
+    font-size: x-large;
+    font-variant: small-caps;
+}
+
+#title {
+
+text-shadow: 2px 2px 4px black;
+}
+
+
+ #title:hover {
+
+text-shadow: 4px 4px 6px black;
+}
